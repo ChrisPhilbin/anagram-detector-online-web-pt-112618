@@ -11,7 +11,7 @@ class Anagram
       found = []
       found << word if word.split("").sort == @anagram.split("").sort
     end
-    found    
+    found
   end
 
 end
